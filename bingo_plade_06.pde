@@ -1,5 +1,10 @@
 int[] x = new int [28];
 
+
+// jeg forstår ikke hvorfor du ikke bruger et 2D array -> int[][]
+// nu ved jeg heller ikke om dette er den nyeste version :D
+
+
 int y = 1;
 int z = 9;
 int i = 0;
@@ -21,6 +26,9 @@ void setup() {
   size(600, 600);
   noLoop();
 }
+
+
+// du skal prøve om du kan lave flere funktioner - sigt efter max 7 linjer kode!! 
 void draw() {
   textSize(20);
   for (int j = 0; j < x.length; j++) {
